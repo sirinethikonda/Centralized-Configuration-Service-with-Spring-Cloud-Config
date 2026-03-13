@@ -29,10 +29,6 @@ graph TD
     CS -- "Property Fetch" --> IS
     User -- "API Requests" --> IS
     User -- "Health Check" --> CS
-    
-    style CS fill:#f9f,stroke:#333,stroke-width:2px
-    style IS fill:#bbf,stroke:#333,stroke-width:2px
-    style Repo fill:#dfd,stroke:#333,stroke-width:2px
 ```
 
 ---
