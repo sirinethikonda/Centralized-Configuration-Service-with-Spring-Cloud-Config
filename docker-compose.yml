@@ -22,7 +22,7 @@ services:
     build: ./inventory-service # Path to the inventory-service project
     ports:
       # Maps the host port to the container port defined for the dev profile
-      - "8082:8082"
+      - "8081:8081"
     environment:
       # Use this to switch between dev and prod profiles
       - SPRING_PROFILES_ACTIVE=${SPRING_PROFILES_ACTIVE:-dev}

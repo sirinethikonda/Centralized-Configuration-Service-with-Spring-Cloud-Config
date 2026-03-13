@@ -99,5 +99,4 @@ Desktop.ini
 .docker/
 docker-compose.override.yml
 
-# Spring Cloud Config Repo #
-config-repo/
+
